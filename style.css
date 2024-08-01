@@ -14,7 +14,7 @@
     font-style: normal;
 }
 
-.main {
+#landing {
     background-color: var(--darkgray);
 }
 
