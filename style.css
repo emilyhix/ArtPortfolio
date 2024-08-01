@@ -159,6 +159,52 @@ p {
     width: 200px;
 }
 
+.contact-box {
+    display: grid;
+    justify-content: center;
+    padding: 250px;
+}
+
+label {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    color: lightslategray;
+    margin-top: -62px;
+    padding-left: 18px;
+    text-align: left;
+    pointer-events: none;
+}
+
+input {
+    width: 95%;
+    height: 42px;
+    margin: 10px 1px 28px 1px;
+    padding: 9px;
+    font-size: 18px;
+    color:#154360;
+    border: var(--darkblue) 1px solid;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 10px 43px 10px 43px;
+    border: none;
+    border-radius: 32px;
+    font-size: 20px;
+    background-color: var(--brightblue);
+    color: white;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+    background-color: var(--darkblue);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .nav-container {
         position: relative;
