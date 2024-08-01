@@ -12,7 +12,38 @@
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+}
+
+.main {
+    background-color: var(--darkgray);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.main-content {
+    color: white;
+    justify-self: auto;
+    margin-left: 20px;
+    width: 80%;
+    align-items: center;
+}
+
+p {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+#main-img {
+    width: 60%;
+    height: 60%;
 }
 
 .nav-container {
@@ -47,6 +78,7 @@
     text-align: center;
     width: 70%;
     justify-self: end;
+    font-size: 20px;
 }
 
 .nav-links {
